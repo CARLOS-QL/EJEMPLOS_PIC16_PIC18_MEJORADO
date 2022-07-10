@@ -1,0 +1,5 @@
+build/default/production/main.p1:  \
+main.c  \
+LIB_PIC16F188XX/DEVICE_CONFIG.h  \
+LIB_PIC16F188XX/DEF_PIC16F188XX.h  \
+LIB_PIC16F188XX/TO_STRING.h 
