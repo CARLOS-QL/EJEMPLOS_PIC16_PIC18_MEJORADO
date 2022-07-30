@@ -1,0 +1,211 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 D:\LCD_595.X\LCD_595.c
+[v _SHIFT595_write SHIFT595_write `(v  1 e 1 0 ]
+"29
+[v _LCD_595_cmd LCD_595_cmd `(v  1 e 1 0 ]
+"45
+[v _LCD_595_char LCD_595_char `(v  1 e 1 0 ]
+"60
+[v _LCD_595_init LCD_595_init `(v  1 e 1 0 ]
+"71
+[v _LCD_595_write_text LCD_595_write_text `(v  1 e 1 0 ]
+"53 D:\LCD_595.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 D:\LCD_595.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 D:\LCD_595.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"677 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18877.h
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"739
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"801
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"863
+[v _TRISD TRISD `VEuc  1 e 1 @20 ]
+"925
+[v _TRISE TRISE `VEuc  1 e 1 @21 ]
+"957
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+"1019
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+[s S108 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1036
+[u S117 . 1 `S108 1 . 1 0 ]
+[v _LATBbits LATBbits `VES117  1 e 1 @23 ]
+"1081
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+"1143
+[v _LATD LATD `VEuc  1 e 1 @25 ]
+"1205
+[v _LATE LATE `VEuc  1 e 1 @26 ]
+"22106
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"22163
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22234
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22279
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22335
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22386
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"23443
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23583
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23680
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23731
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23789
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"33494
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"33556
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"33618
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"33680
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"33742
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"34114
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"34176
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"34238
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"34300
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"34362
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"34734
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"34796
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"34858
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"34920
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"34982
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"35354
+[v _ANSELD ANSELD `VEuc  1 e 1 @8025 ]
+"35416
+[v _WPUD WPUD `VEuc  1 e 1 @8026 ]
+"35478
+[v _ODCOND ODCOND `VEuc  1 e 1 @8027 ]
+"35540
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @8028 ]
+"35602
+[v _INLVLD INLVLD `VEuc  1 e 1 @8029 ]
+"35788
+[v _ANSELE ANSELE `VEuc  1 e 1 @8036 ]
+"35820
+[v _WPUE WPUE `VEuc  1 e 1 @8037 ]
+"35858
+[v _ODCONE ODCONE `VEuc  1 e 1 @8038 ]
+"35890
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @8039 ]
+"35922
+[v _INLVLE INLVLE `VEuc  1 e 1 @8040 ]
+"53 D:\LCD_595.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"81
+} 0
+"50 D:\LCD_595.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"55 D:\LCD_595.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"126
+} 0
+"57 D:\LCD_595.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"71 D:\LCD_595.X\LCD_595.c
+[v _LCD_595_write_text LCD_595_write_text `(v  1 e 1 0 ]
+{
+[v LCD_595_write_text@str str `*.25uc  1 p 2 8 ]
+"74
+} 0
+"45
+[v _LCD_595_char LCD_595_char `(v  1 e 1 0 ]
+{
+[v LCD_595_char@data data `uc  1 a 1 wreg ]
+"47
+[v LCD_595_char@data_l data_l `uc  1 a 1 7 ]
+[v LCD_595_char@data_u data_u `uc  1 a 1 6 ]
+"45
+[v LCD_595_char@data data `uc  1 a 1 wreg ]
+"48
+[v LCD_595_char@data data `uc  1 a 1 5 ]
+"56
+} 0
+"60
+[v _LCD_595_init LCD_595_init `(v  1 e 1 0 ]
+{
+"67
+} 0
+"29
+[v _LCD_595_cmd LCD_595_cmd `(v  1 e 1 0 ]
+{
+[v LCD_595_cmd@cmd cmd `uc  1 a 1 wreg ]
+"31
+[v LCD_595_cmd@data_l data_l `uc  1 a 1 7 ]
+[v LCD_595_cmd@data_u data_u `uc  1 a 1 6 ]
+"29
+[v LCD_595_cmd@cmd cmd `uc  1 a 1 wreg ]
+"32
+[v LCD_595_cmd@cmd cmd `uc  1 a 1 5 ]
+"41
+} 0
+"5
+[v _SHIFT595_write SHIFT595_write `(v  1 e 1 0 ]
+{
+[v SHIFT595_write@dato dato `uc  1 a 1 wreg ]
+"7
+[v SHIFT595_write@i i `uc  1 a 1 2 ]
+"5
+[v SHIFT595_write@dato dato `uc  1 a 1 wreg ]
+"7
+[v SHIFT595_write@dato dato `uc  1 a 1 1 ]
+"25
+} 0
